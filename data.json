@@ -12,6 +12,9 @@
   },
   "index": "index.html",
   "vars": {
-    "pp": "a"
+    "pages": [
+      "/|Home"
+    ],
+    "mapheader": "let p = args[0].split('|'); return '<a href=\"' + p[0] + '\">' + p[1] + '</a>'"
   }
 }
