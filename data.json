@@ -1,0 +1,17 @@
+{
+  "files": [
+    "style.css"
+  ],
+  "pages": {
+    ".": {
+      "vars": {
+        "hi": ["adf","goo"],
+        "wah": "return args.join(', ') + '<br>'"
+      }
+    }
+  },
+  "index": "index.html",
+  "vars": {
+    "pp": "a"
+  }
+}
