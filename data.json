@@ -1,12 +1,12 @@
 {
   "files": [
-    "style.css"
+    "style.css",
+    "404.html"
   ],
   "pages": {
     ".": {
       "vars": {
-        "hi": ["adf","goo"],
-        "wah": "return args.join(', ') + '<br>'"
+        "content": "Hello!"
       }
     }
   },
@@ -15,6 +15,9 @@
     "pages": [
       "/|Home"
     ],
-    "mapheader": "let p = args[0].split('|'); return '<a href=\"' + p[0] + '\">' + p[1] + '</a>'"
+    "mapheader": "let p = args[0].split('|'); return '<a href=\"' + p[0] + '\">' + p[1] + '</a>'",
+    "maintitle": "EvrTDG",
+    "title": "",
+    "content": "Error - Page not found"
   }
 }
