@@ -21,8 +21,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: install
-        run: npm install
+      # - name: install
+      #   run: npm install
 
       - name: build
         run: node build
